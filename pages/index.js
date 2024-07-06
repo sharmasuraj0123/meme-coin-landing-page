@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import { Rocket, Coins, Users, ArrowRight } from 'lucide-react';
 
-// Configuration object
+// Configuration object rte
 const config = {
   
   "projectName":  "MoonPug",
