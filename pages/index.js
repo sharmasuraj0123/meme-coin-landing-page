@@ -26,9 +26,7 @@ const config = {
   
       "Tokenomics",
   
-      "Roadmap",
-  
-      "Community"
+      "Roadmap"
     ]
   
 },
@@ -50,10 +48,9 @@ const config = {
   "features":  [
     {
   
-      "title":  "Launch",
+      "title":  "Seamless Launch",
   
-      "description":  "LaughCoin (LOL) is the cryptocurrency that brings joy and laughter to the blockchain! Born from the whimsical world of memes and giggles,
-   LaughCoin is here to spread happiness and fun across the crypto universe.",
+      "description":  "Seamlessly launch your LaughCoin journey with our user-friendly interface.",
   
       "icon":  "Rocket"
     
@@ -61,11 +58,9 @@ const config = {
   
     {
   
-      "title":  "Treasury",
+      "title":  "Treasury Transparency",
   
-      "description":  "Learn about the distribution,
-   supply,
-   and unique features of LaughCoin (LOL).",
+      "description":  "Funds managed transparently to ensure the integrity and growth of LaughCoin.",
   
       "icon":  "Coins"
     
@@ -73,9 +68,9 @@ const config = {
   
     {
   
-      "title":  "Community",
+      "title":  "Engaging Community",
   
-      "description":  "Connect with fellow LaughCoin enthusiasts and stay updated on the latest news and events.",
+      "description":  "A vibrant and engaging community that loves to laugh and share memes.",
   
       "icon":  "Users"
     
