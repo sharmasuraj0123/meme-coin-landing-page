@@ -62,8 +62,7 @@ const config = {
   
       "title":  "Community Driven",
   
-      "description":  "A vibrant community full of meme enthusiasts and laughter lovers. Together,
-   we thrive and enjoy the ride.",
+      "description":  "A vibrant community full of meme enthusiasts and laughter lovers. Together, we thrive and enjoy the ride.",
   
       "icon":  "Users"
     
