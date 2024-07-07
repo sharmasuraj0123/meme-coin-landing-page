@@ -5,17 +5,17 @@ import { Rocket, Coins, Users, ArrowRight } from 'lucide-react';
 // Configuration object rte
 const config = {
   
-  "projectName":  "LaughCoin",
+  "projectName":  "ChuckleCoin",
   
   "colors":  {
   
-    "primary":  "#FFEB3B",
+    "primary":  "#212121",
   
-    "secondary":  "#2196F3",
+    "secondary":  "#1E90FF",
   
-    "text":  "#4CAF50",
+    "text":  "#C0C0C0",
   
-    "accent":  "#E91E63"
+    "accent":  "#39FF14"
   
 },
   
@@ -26,31 +26,32 @@ const config = {
   
       "Tokenomics",
   
-      "Roadmap"
+      "Community"
     ]
   
 },
   
   "hero":  {
   
-    "title":  "Welcome to LaughCoin!",
+    "title":  "Welcome to ChuckleCoin!",
   
-    "subtitle":  "The Cryptocurrency That Makes You Laugh"
+    "subtitle":  "The Cryptocurrency That Makes You Smile"
   
 },
   
   "cta":  {
   
-    "buttonText":  "Buy LOL"
+    "buttonText":  "Join the Chuckle Revolution"
   
 },
   
   "features":  [
     {
   
-      "title":  "Seamless Launch",
+      "title":  "Laughter-Powered Economy",
   
-      "description":  "Seamlessly launch your LaughCoin journey with our user-friendly interface.",
+      "description":  "Our unique launch strategy brings humor to new heights,
+   making your investment experience both profitable and entertaining.",
   
       "icon":  "Rocket"
     
@@ -58,9 +59,10 @@ const config = {
   
     {
   
-      "title":  "Treasury Transparency",
+      "title":  "Memes Treasury",
   
-      "description":  "Funds managed transparently to ensure the integrity and growth of LaughCoin.",
+      "description":  "Optimally managed treasury filled with the finest memes and in-jokes,
+   ensuring a fun-filled future.",
   
       "icon":  "Coins"
     
@@ -68,9 +70,11 @@ const config = {
   
     {
   
-      "title":  "Engaging Community",
+      "title":  "Community of Jokesters",
   
-      "description":  "A vibrant and engaging community that loves to laugh and share memes.",
+      "description":  "A vibrant and active community that thrives on laughs,
+   memes,
+   and shared moments of joy.",
   
       "icon":  "Users"
     
@@ -79,7 +83,7 @@ const config = {
   
   "footer":  {
   
-    "copyright":  "\u00a9 2023 LaughCoin. All rights reserved."
+    "copyright":  "\u00a9 2023 ChuckleCoin. All rights reserved."
   
 }
 
