@@ -5,17 +5,17 @@ import { Rocket, Coins, Users, ArrowRight } from 'lucide-react';
 // Configuration object rte
 const config = {
   
-  "projectName":  "MoonPug",
+  "projectName":  "GiggleCoin",
   
   "colors":  {
   
-    "primary":  "#1E3A8A",
+    "primary":  "#FFEB3B",
   
-    "secondary":  "#F3F4F6",
+    "secondary":  "#2196F3",
   
-    "text":  "#8B5E3C",
+    "text":  "#4CAF50",
   
-    "accent":  "#EF4444"
+    "accent":  "#E91E63"
   
 },
   
@@ -33,24 +33,25 @@ const config = {
   
   "hero":  {
   
-    "title":  "Welcome to MoonPug!",
+    "title":  "Welcome to GiggleCoin!",
   
-    "subtitle":  "The cutest and most adventurous pug in the crypto universe!"
+    "subtitle":  "The Cryptocurrency That Makes You Laugh"
   
 },
   
   "cta":  {
   
-    "buttonText":  "Buy MPUG"
+    "buttonText":  "Join the Giggle Revolution"
   
 },
   
   "features":  [
     {
   
-      "title":  "To The Moon!",
+      "title":  "Launch Strategy",
   
-      "description":  "Experience the moon landing vibes with MoonPug. Join the mission and be a part of our space adventure!",
+      "description":  "GiggleCoin is launching with a bang,
+   bringing joy and fun to the crypto world from day one!",
   
       "icon":  "Rocket"
     
@@ -58,9 +59,9 @@ const config = {
   
     {
   
-      "title":  "Secure Treasury",
+      "title":  "Unique Tokenomics",
   
-      "description":  "MoonPug ensures a secure and transparent treasury system for all holders. Trust and security come first!",
+      "description":  "GiggleCoin"s distribution and supply are designed to maximize laughter and fun.",
   
       "icon":  "Coins"
     
@@ -68,9 +69,9 @@ const config = {
   
     {
   
-      "title":  "Strong Community",
+      "title":  "Vibrant Community",
   
-      "description":  "Become a member of our ever-growing community. Connect with moon-landing enthusiasts and pug lovers!",
+      "description":  "Join the GiggleCoin community where fun meets blockchain.",
   
       "icon":  "Users"
     
@@ -79,7 +80,7 @@ const config = {
   
   "footer":  {
   
-    "copyright":  "\u00a9 2023 MoonPug. All rights reserved."
+    "copyright":  "\u00a9 2023 GiggleCoin. All rights reserved."
   
 }
 
