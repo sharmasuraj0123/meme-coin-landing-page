@@ -41,17 +41,16 @@ const config = {
   
   "cta":  {
   
-    "buttonText":  "Join the Chuckle Revolution"
+    "buttonText":  "Buy CHKL"
   
 },
   
   "features":  [
     {
   
-      "title":  "Laughter-Powered Economy",
+      "title":  "Laugh Your Way to the Moon",
   
-      "description":  "Our unique launch strategy brings humor to new heights,
-   making your investment experience both profitable and entertaining.",
+      "description":  "Experience a fun and rewarding journey with ChuckleCoin"s unique launch strategy.",
   
       "icon":  "Rocket"
     
@@ -59,10 +58,9 @@ const config = {
   
     {
   
-      "title":  "Memes Treasury",
+      "title":  "Secure and Transparent Treasury",
   
-      "description":  "Optimally managed treasury filled with the finest memes and in-jokes,
-   ensuring a fun-filled future.",
+      "description":  "Trust in a secure and transparent treasury that ensures the safety and growth of ChuckleCoin.",
   
       "icon":  "Coins"
     
@@ -70,11 +68,9 @@ const config = {
   
     {
   
-      "title":  "Community of Jokesters",
+      "title":  "Vibrant Community",
   
-      "description":  "A vibrant and active community that thrives on laughs,
-   memes,
-   and shared moments of joy.",
+      "description":  "Join a community of meme lovers and crypto enthusiasts for endless amusement.",
   
       "icon":  "Users"
     
