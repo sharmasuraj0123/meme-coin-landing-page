@@ -72,8 +72,7 @@ const config = {
   
       "title":  "Community",
   
-      "description":  "A community united by laughter and entertainment,
-   driving the project forward.",
+      "description":  "A community united by laughter and entertainment,driving the project forward.",
   
       "icon":  "Users"
     
