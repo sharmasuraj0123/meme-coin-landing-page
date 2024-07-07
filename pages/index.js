@@ -2,87 +2,46 @@ import React from 'react';
 import Head from 'next/head';
 import { Rocket, Coins, Users, ArrowRight } from 'lucide-react';
 
-// Configuration object rte
+// Configuration object
 const config = {
-  
-  "projectName":  "ChuckleCoin",
-  
-  "colors":  {
-  
-    "primary":  "#212121",
-  
-    "secondary":  "#1E90FF",
-  
-    "text":  "#C0C0C0",
-  
-    "accent":  "#39FF14"
-  
-},
-  
-  "header":  {
-  
-    "navItems":  [
-      "About",
-  
-      "Tokenomics",
-  
-      "Community"
-    ]
-  
-},
-  
-  "hero":  {
-  
-    "title":  "Welcome to ChuckleCoin!",
-  
-    "subtitle":  "The Cryptocurrency That Makes You Smile"
-  
-},
-  
-  "cta":  {
-  
-    "buttonText":  "Buy CHKL"
-  
-},
-  
-  "features":  [
+  projectName: "<<PROJECT_NAME: Name of the cryptocurrency project>>",
+  colors: {
+    primary: "<<PRIMARY_COLOR: Main color theme of the website>>",
+    secondary: "<<SECONDARY_COLOR: Secondary color theme of the website>>",
+    text: "<<TEXT_COLOR: Color of the main text on the website>>",
+    accent: "<<ACCENT_COLOR: Color for highlighted elements like buttons>>"
+  },
+  header: {
+    logo: "/images/logo.png",
+    navItems: ["<<NAVIGATION_ITEM_1: First item in the navigation menu e.g About, Tokenomics, Launch Strategy, Community, Airdrop, Faucet>>", "<<NAVIGATION_ITEM_2: Second item in the navigation menu e.g About, Tokenomics, Launch Strategy, Community, Airdrop, Faucet>>", "<<NAVIGATION_ITEM_3: Third item in the navigation menu,. e.g About, Tokenomics, Launch Strategy, Community, Airdrop, Faucet>>"]
+  },
+  hero: {
+    title: "<<HERO_TITLE: Main headline of the landing page>>",
+    subtitle: "<<HERO_SUBTITLE: Brief description or tagline of the project>>"
+  },
+  cta: {
+    buttonText: "<<CTA_BUTTON_TEXT: Text for buy meme coin button, replace this with buy meme coion_symbol>>"
+  },
+  features: [
     {
-  
-      "title":  "Laugh Your Way to the Moon",
-  
-      "description":  "Experience a fun and rewarding journey with ChuckleCoin\"s unique launch strategy.",
-  
-      "icon":  "Rocket"
-    
-},
-  
+      title: "<<FEATURE_TITLE 1: Title of a key feature of the project>>",
+      description: "<<FEATURE_DESCRIPTION: Brief explanation of a key feature related to launch to that makes this project unique>>",
+      icon: "Rocket"
+    },
     {
-  
-      "title":  "Secure and Transparent Treasury",
-  
-      "description":  "Trust in a secure and transparent treasury that ensures the safety and growth of ChuckleCoin.",
-  
-      "icon":  "Coins"
-    
-},
-  
+      title: "<<FEATURE_TITLE: Title of a key feature of the project>>",
+      description: "<<FEATURE_DESCRIPTION: Brief explanation of a key feature related to treasury that makes this project unique>>",
+      icon: "Coins"
+    },
     {
-  
-      "title":  "Vibrant Community",
-  
-      "description":  "Join a community of meme lovers and crypto enthusiasts for endless amusement.",
-  
-      "icon":  "Users"
-    
-}
+      title: "<<FEATURE_TITLE: Title of a key feature of the project>>",
+      description: "<<FEATURE_DESCRIPTION: Brief explanation of a key feature related to the community that makes this project unique>>",
+      icon: "Users"
+    }
   ],
-  
-  "footer":  {
-  
-    "copyright":  "\u00a9 2023 ChuckleCoin. All rights reserved."
-  
-}
-
+  footer: {
+    copyright: "<<COPYRIGHT_TEXT: Copyright notice and year>>"
+  }
 };
 
 const Button = ({ children, className, style }) => (
@@ -110,7 +69,7 @@ export default function Home() {
       </Head>
 
       <header className="flex justify-between items-center mb-16">
-        <h1 className="text-4xl font-bold">🚀 {config.projectName}</h1>
+        <h1 className="text-4xl font-bold">{config.header.logo} {config.projectName}</h1>
         <nav>
           {config.header.navItems.map((item, index) => (
             <Button
