@@ -5,15 +5,15 @@ import { Rocket, Coins, Users, ArrowRight } from 'lucide-react';
 // Configuration object
 const config = {
   
-  "projectName":  "MirthCoin",
+  "projectName":  "SolarLaugh",
   
   "colors":  {
   
-    "primary":  "#0D0D0D",
+    "primary":  "#0B3D91",
   
-    "secondary":  "#1E90FF",
+    "secondary":  "#8A2BE2",
   
-    "text":  "#C0C0C0",
+    "text":  "#FFFFFF",
   
     "accent":  "#39FF14"
   
@@ -26,33 +26,33 @@ const config = {
     "navItems":  [
       "About",
   
-      "Tokenomics",
+      "Community",
   
-      "Community"
+      "How to Buy"
     ]
   
 },
   
   "hero":  {
   
-    "title":  "Welcome to MirthCoin!",
+    "title":  "Welcome to the SolarLaugh Universe!",
   
-    "subtitle":  "The Cryptocurrency That Makes You Laugh"
+    "subtitle":  "Where the Cosmos Meets Comedy"
   
 },
   
   "cta":  {
   
-    "buttonText":  "Buy MIR"
+    "buttonText":  "Buy SLT"
   
 },
   
   "features":  [
     {
   
-      "title":  "Launch",
+      "title":  "Galactic Launch",
   
-      "description":  "Smooth and entertaining launch process designed to captivate the community.",
+      "description":  "Experience a cosmic launch strategy that propels SolarLaugh across the universe!",
   
       "icon":  "Rocket"
     
@@ -60,9 +60,9 @@ const config = {
   
     {
   
-      "title":  "Treasury",
+      "title":  "Interstellar Treasury",
   
-      "description":  "Fun and engaging treasury management with ample reserves for meme culture promotions.",
+      "description":  "A robust treasury system ensuring the longevity and stability of SolarLaugh.",
   
       "icon":  "Coins"
     
@@ -70,9 +70,9 @@ const config = {
   
     {
   
-      "title":  "Community",
+      "title":  "Cosmic Community",
   
-      "description":  "A community united by laughter and entertainment,driving the project forward.",
+      "description":  "Join a community of meme enthusiasts and space explorers united by SolarLaugh.",
   
       "icon":  "Users"
     
@@ -81,7 +81,7 @@ const config = {
   
   "footer":  {
   
-    "copyright":  "\u00a9 2023 MirthCoin. All rights reserved."
+    "copyright":  "\u00a9 2023 SolarLaugh. All Rights Reserved."
   
 }
 
