@@ -50,7 +50,7 @@ const config = {
   
       "title":  "Laugh Your Way to the Moon",
   
-      "description":  "Experience a fun and rewarding journey with ChuckleCoin"s unique launch strategy.",
+      "description":  "Experience a fun and rewarding journey with ChuckleCoin\"s unique launch strategy.",
   
       "icon":  "Rocket"
     
