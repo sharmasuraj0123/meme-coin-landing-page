@@ -5,7 +5,7 @@ import { Rocket, Coins, Users, ArrowRight } from 'lucide-react';
 // Configuration object rte
 const config = {
   
-  "projectName":  "GiggleCoin",
+  "projectName":  "LaughCoin",
   
   "colors":  {
   
@@ -26,6 +26,8 @@ const config = {
   
       "Tokenomics",
   
+      "Roadmap",
+  
       "Community"
     ]
   
@@ -33,7 +35,7 @@ const config = {
   
   "hero":  {
   
-    "title":  "Welcome to GiggleCoin!",
+    "title":  "Welcome to LaughCoin!",
   
     "subtitle":  "The Cryptocurrency That Makes You Laugh"
   
@@ -41,17 +43,17 @@ const config = {
   
   "cta":  {
   
-    "buttonText":  "Join the Giggle Revolution"
+    "buttonText":  "Buy LOL"
   
 },
   
   "features":  [
     {
   
-      "title":  "Launch Strategy",
+      "title":  "Launch",
   
-      "description":  "GiggleCoin is launching with a bang,
-   bringing joy and fun to the crypto world from day one!",
+      "description":  "LaughCoin (LOL) is the cryptocurrency that brings joy and laughter to the blockchain! Born from the whimsical world of memes and giggles,
+   LaughCoin is here to spread happiness and fun across the crypto universe.",
   
       "icon":  "Rocket"
     
@@ -59,9 +61,11 @@ const config = {
   
     {
   
-      "title":  "Unique Tokenomics",
+      "title":  "Treasury",
   
-      "description":  "GiggleCoin"s distribution and supply are designed to maximize laughter and fun.",
+      "description":  "Learn about the distribution,
+   supply,
+   and unique features of LaughCoin (LOL).",
   
       "icon":  "Coins"
     
@@ -69,9 +73,9 @@ const config = {
   
     {
   
-      "title":  "Vibrant Community",
+      "title":  "Community",
   
-      "description":  "Join the GiggleCoin community where fun meets blockchain.",
+      "description":  "Connect with fellow LaughCoin enthusiasts and stay updated on the latest news and events.",
   
       "icon":  "Users"
     
@@ -80,7 +84,7 @@ const config = {
   
   "footer":  {
   
-    "copyright":  "\u00a9 2023 GiggleCoin. All rights reserved."
+    "copyright":  "\u00a9 2023 LaughCoin. All rights reserved."
   
 }
 
