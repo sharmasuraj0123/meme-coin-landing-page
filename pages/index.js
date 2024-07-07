@@ -4,44 +4,86 @@ import { Rocket, Coins, Users, ArrowRight } from 'lucide-react';
 
 // Configuration object
 const config = {
-  projectName: "<<PROJECT_NAME: Name of the cryptocurrency project>>",
-  colors: {
-    primary: "<<PRIMARY_COLOR: Main color theme of the website>>",
-    secondary: "<<SECONDARY_COLOR: Secondary color theme of the website>>",
-    text: "<<TEXT_COLOR: Color of the main text on the website>>",
-    accent: "<<ACCENT_COLOR: Color for highlighted elements like buttons>>"
-  },
-  header: {
-    logo: "/images/logo.png",
-    navItems: ["<<NAVIGATION_ITEM_1: First item in the navigation menu e.g About, Tokenomics, Launch Strategy, Community, Airdrop, Faucet>>", "<<NAVIGATION_ITEM_2: Second item in the navigation menu e.g About, Tokenomics, Launch Strategy, Community, Airdrop, Faucet>>", "<<NAVIGATION_ITEM_3: Third item in the navigation menu,. e.g About, Tokenomics, Launch Strategy, Community, Airdrop, Faucet>>"]
-  },
-  hero: {
-    title: "<<HERO_TITLE: Main headline of the landing page>>",
-    subtitle: "<<HERO_SUBTITLE: Brief description or tagline of the project>>"
-  },
-  cta: {
-    buttonText: "<<CTA_BUTTON_TEXT: Text for buy meme coin button, replace this with buy meme coion_symbol>>"
-  },
-  features: [
+  
+  "projectName":  "MirthCoin",
+  
+  "colors":  {
+  
+    "primary":  "#0D0D0D",
+  
+    "secondary":  "#1E90FF",
+  
+    "text":  "#C0C0C0",
+  
+    "accent":  "#39FF14"
+  
+},
+  
+  "header":  {
+  
+    "navItems":  [
+      "About",
+  
+      "Tokenomics",
+  
+      "Community"
+    ]
+  
+},
+  
+  "hero":  {
+  
+    "title":  "Welcome to MirthCoin!",
+  
+    "subtitle":  "The Cryptocurrency That Makes You Laugh"
+  
+},
+  
+  "cta":  {
+  
+    "buttonText":  "Buy MIR"
+  
+},
+  
+  "features":  [
     {
-      title: "<<FEATURE_TITLE 1: Title of a key feature of the project>>",
-      description: "<<FEATURE_DESCRIPTION: Brief explanation of a key feature related to launch to that makes this project unique>>",
-      icon: "Rocket"
-    },
+  
+      "title":  "Unique Launch Strategy",
+  
+      "description":  "Our launch strategy ensures a fair distribution and maximum fun for all participants.",
+  
+      "icon":  "Rocket"
+    
+},
+  
     {
-      title: "<<FEATURE_TITLE: Title of a key feature of the project>>",
-      description: "<<FEATURE_DESCRIPTION: Brief explanation of a key feature related to treasury that makes this project unique>>",
-      icon: "Coins"
-    },
+  
+      "title":  "Community Treasury",
+  
+      "description":  "A portion of all transactions goes into the community treasury,
+   funding future projects and initiatives.",
+  
+      "icon":  "Coins"
+    
+},
+  
     {
-      title: "<<FEATURE_TITLE: Title of a key feature of the project>>",
-      description: "<<FEATURE_DESCRIPTION: Brief explanation of a key feature related to the community that makes this project unique>>",
-      icon: "Users"
-    }
+  
+      "title":  "Vibrant Community",
+  
+      "description":  "Join a community of meme enthusiasts and crypto lovers in the MirthCoin universe.",
+  
+      "icon":  "Users"
+    
+}
   ],
-  footer: {
-    copyright: "<<COPYRIGHT_TEXT: Copyright notice and year>>"
-  }
+  
+  "footer":  {
+  
+    "copyright":  "\u00a9 2023 MirthCoin. All rights reserved."
+  
+}
+
 };
 
 const Button = ({ children, className, style }) => (
