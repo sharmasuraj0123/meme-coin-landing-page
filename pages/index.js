@@ -7,6 +7,18 @@ const config = {
   
   "projectName":  "MirthCoin",
   
+  "colors":  {
+  
+    "primary":  "#0D0D0D",
+  
+    "secondary":  "#1E90FF",
+  
+    "text":  "#C0C0C0",
+  
+    "accent":  "#39FF14"
+  
+},
+  
   "header":  {
   
     "logo":  "/public/logo.png",
@@ -15,8 +27,6 @@ const config = {
       "About",
   
       "Tokenomics",
-  
-      "Roadmap",
   
       "Community"
     ]
@@ -33,16 +43,16 @@ const config = {
   
   "cta":  {
   
-    "buttonText":  "Join the Mirth Revolution"
+    "buttonText":  "Buy MIR"
   
 },
   
   "features":  [
     {
   
-      "title":  "Launch with Laughter",
+      "title":  "Launch",
   
-      "description":  "Our launch strategy is designed to bring joy and excitement. Join us on this whimsical journey to the moon.",
+      "description":  "Smooth and entertaining launch process designed to captivate the community.",
   
       "icon":  "Rocket"
     
@@ -50,9 +60,9 @@ const config = {
   
     {
   
-      "title":  "Mirthful Treasury",
+      "title":  "Treasury",
   
-      "description":  "A treasury built on fun and community spirit. Discover how MirthCoin is here to make a positive impact.",
+      "description":  "Fun and engaging treasury management with ample reserves for meme culture promotions.",
   
       "icon":  "Coins"
     
@@ -60,9 +70,10 @@ const config = {
   
     {
   
-      "title":  "Community Driven",
+      "title":  "Community",
   
-      "description":  "A vibrant community full of meme enthusiasts and laughter lovers. Together, we thrive and enjoy the ride.",
+      "description":  "A community united by laughter and entertainment,
+   driving the project forward.",
   
       "icon":  "Users"
     
