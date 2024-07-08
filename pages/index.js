@@ -1,89 +1,88 @@
 import React from 'react';
 import Head from 'next/head';
 import { Rocket, Coins, Users, ArrowRight } from 'lucide-react';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 // Configuration object
 const config = {
-  
-  "projectName":  "NebulaPepe",
-  
-  "colors":  {
-  
-    "primary":  "darkblue",
-  
-    "secondary":  "purple",
-  
-    "text":  "neon green",
-  
-    "accent":  "electric blue"
-  
-},
-  
-  "header":  {
-  
-    "logo":  "/public/logo.png",
-  
-    "navItems":  [
+
+  "projectName": "NebulaPepe",
+
+  "colors": {
+
+    "primary": "darkblue",
+
+    "secondary": "pink",
+
+    "text": "neon green",
+
+    "accent": "electric blue"
+
+  },
+
+  "header": {
+    "navItems": [
       "About",
-  
+
       "Tokenomics",
-  
+
       "Community"
     ]
-  
-},
-  
-  "hero":  {
-  
-    "title":  "Welcome to NebulaPepe",
-  
-    "subtitle":  "Join the cosmic journey of memes and the universe! \ud83d\ude80\ud83d\udc38"
-  
-},
-  
-  "cta":  {
-  
-    "buttonText":  "Buy PEPE"
-  
-},
-  
-  "features":  [
+
+  },
+
+  "hero": {
+
+    "title": "Welcome to NebulaPepe",
+
+    "subtitle": "Join the cosmic journey of memes and the universe! \ud83d\ude80\ud83d\udc38"
+
+  },
+
+  "cta": {
+
+    "buttonText": "Buy PEPE"
+
+  },
+
+  "features": [
     {
-  
-      "title":  "Cosmic Launch",
-  
-      "description":  "Experience our unique cosmic-themed token launch.",
-  
-      "icon":  "Rocket"
-    
-},
-  
+
+      "title": "Cosmic Launch",
+
+      "description": "Experience our unique cosmic-themed token launch.",
+
+      "icon": "Rocket"
+
+    },
+
     {
-  
-      "title":  "Galactic Treasury",
-  
-      "description":  "Our well-planned treasury ensures the longevity of the project.",
-  
-      "icon":  "Coins"
-    
-},
-  
+
+      "title": "Galactic Treasury",
+
+      "description": "Our well-planned treasury ensures the longevity of the project.",
+
+      "icon": "Coins"
+
+    },
+
     {
-  
-      "title":  "Stellar Community",
-  
-      "description":  "Join a thriving community of meme lovers united by a common cause.",
-  
-      "icon":  "Users"
-    
-}
+
+      "title": "Stellar Community",
+
+      "description": "Join a thriving community of meme lovers united by a common cause.",
+
+      "icon": "Users"
+
+    }
   ],
-  
-  "footer":  {
-  
-    "copyright":  "NebulaPepe \u00a9 2023"
-  
-}
+
+  "footer": {
+
+    "copyright": "NebulaPepe \u00a9 2023"
+
+  }
 
 };
 
@@ -112,7 +111,8 @@ export default function Home() {
       </Head>
 
       <header className="flex justify-between items-center mb-16">
-        <h1 className="text-4xl font-bold">{config.header.logo} {config.projectName}</h1>
+
+        <h1 className="text-4xl font-bold">{config.projectName}</h1>
         <nav>
           {config.header.navItems.map((item, index) => (
             <Button
@@ -130,8 +130,18 @@ export default function Home() {
         <h2 className="text-7xl sm:text-8xl font-extrabold mb-8 leading-tight animate-float">
           {config.hero.title}
         </h2>
+        <Carousel showThumbs={false} autoPlay infiniteLoop>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <img src="logo.jpg" alt="Logo 1" style={{ width: '40%', height: 'auto' }} />
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <img src="logo.jpg" alt="Logo 2" style={{ width: '40%', height: 'auto' }} />
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <img src="logo.jpg" alt="Logo 3" style={{ width: '40%', height: 'auto' }} />
+          </div>
+        </Carousel>
         <p className="text-2xl mb-12">{config.hero.subtitle}</p>
-
         <Button
           className="text-xl px-10 py-6 rounded-full animate-pulse"
           style={{
