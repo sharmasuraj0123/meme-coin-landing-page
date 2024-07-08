@@ -5,17 +5,17 @@ import { Rocket, Coins, Users, ArrowRight } from 'lucide-react';
 // Configuration object
 const config = {
   
-  "projectName":  "SolarLaugh",
+  "projectName":  "NebulaPepe",
   
   "colors":  {
   
-    "primary":  "#0B3D91",
+    "primary":  "darkblue",
   
-    "secondary":  "#8A2BE2",
+    "secondary":  "purple",
   
-    "text":  "#FFFFFF",
+    "text":  "neon green",
   
-    "accent":  "#39FF14"
+    "accent":  "electric blue"
   
 },
   
@@ -26,33 +26,33 @@ const config = {
     "navItems":  [
       "About",
   
-      "Community",
+      "Tokenomics",
   
-      "How to Buy"
+      "Community"
     ]
   
 },
   
   "hero":  {
   
-    "title":  "Welcome to the SolarLaugh Universe!",
+    "title":  "Welcome to NebulaPepe",
   
-    "subtitle":  "Where the Cosmos Meets Comedy"
+    "subtitle":  "Join the cosmic journey of memes and the universe! \ud83d\ude80\ud83d\udc38"
   
 },
   
   "cta":  {
   
-    "buttonText":  "Buy SLT"
+    "buttonText":  "Buy PEPE"
   
 },
   
   "features":  [
     {
   
-      "title":  "Galactic Launch",
+      "title":  "Cosmic Launch",
   
-      "description":  "Experience a cosmic launch strategy that propels SolarLaugh across the universe!",
+      "description":  "Experience our unique cosmic-themed token launch.",
   
       "icon":  "Rocket"
     
@@ -60,9 +60,9 @@ const config = {
   
     {
   
-      "title":  "Interstellar Treasury",
+      "title":  "Galactic Treasury",
   
-      "description":  "A robust treasury system ensuring the longevity and stability of SolarLaugh.",
+      "description":  "Our well-planned treasury ensures the longevity of the project.",
   
       "icon":  "Coins"
     
@@ -70,9 +70,9 @@ const config = {
   
     {
   
-      "title":  "Cosmic Community",
+      "title":  "Stellar Community",
   
-      "description":  "Join a community of meme enthusiasts and space explorers united by SolarLaugh.",
+      "description":  "Join a thriving community of meme lovers united by a common cause.",
   
       "icon":  "Users"
     
@@ -81,7 +81,7 @@ const config = {
   
   "footer":  {
   
-    "copyright":  "\u00a9 2023 SolarLaugh. All Rights Reserved."
+    "copyright":  "NebulaPepe \u00a9 2023"
   
 }
 
