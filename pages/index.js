@@ -5,23 +5,21 @@ import { Rocket, Coins, Users, ArrowRight } from 'lucide-react';
 // Configuration object
 const config = {
   
-  "projectName":  "NebulaPepe",
+  "projectName":  "StarPug",
   
   "colors":  {
   
-    "primary":  "darkblue",
+    "primary":  "#0d1b2a",
   
-    "secondary":  "purple",
+    "secondary":  "#1b263b",
   
-    "text":  "neon green",
+    "text":  "#ffffff",
   
-    "accent":  "electric blue"
+    "accent":  "#ff4081"
   
 },
   
   "header":  {
-  
-    "logo":  "/public/logo.png",
   
     "navItems":  [
       "About",
@@ -35,24 +33,33 @@ const config = {
   
   "hero":  {
   
-    "title":  "Welcome to NebulaPepe",
+    "title":  "StarPug:  The Adorable Space Adventure",
   
-    "subtitle":  "Join the cosmic journey of memes and the universe! \ud83d\ude80\ud83d\udc38"
+    "subtitle":  "Combining the charm of pugs with the wonders of space",
+  
+    "narrative":  "Welcome to the intergalactic world of StarPug,
+   where adorable pugs and the wonders of the universe collide! \ud83c\udf0c\u2728 StarPug is the ultimate meme coin,
+   combining the irresistible charm of pugs with the boundless mysteries of space.\n\nJoin the StarPug community as we embark on cosmic adventures,
+   discover new memes,
+   and spread joy across the galaxy. With PUG,
+   you"re not just holding a token; you"re holding a stellar phenomenon. Prepare for liftoff,
+   space explorer,
+   and let"s embark on this epic journey together! \ud83d\ude80\ud83d\udc15"
   
 },
   
   "cta":  {
   
-    "buttonText":  "Buy PEPE"
+    "buttonText":  "Buy $PUG"
   
 },
   
   "features":  [
     {
   
-      "title":  "Cosmic Launch",
+      "title":  "Intergalactic Launch",
   
-      "description":  "Experience our unique cosmic-themed token launch.",
+      "description":  "Experience a unique and exhilarating launch strategy that sets StarPug apart from other meme coins.",
   
       "icon":  "Rocket"
     
@@ -60,9 +67,9 @@ const config = {
   
     {
   
-      "title":  "Galactic Treasury",
+      "title":  "Strong Treasury",
   
-      "description":  "Our well-planned treasury ensures the longevity of the project.",
+      "description":  "Our well-managed treasury ensures the stability and sustainability of the StarPug ecosystem.",
   
       "icon":  "Coins"
     
@@ -70,9 +77,10 @@ const config = {
   
     {
   
-      "title":  "Stellar Community",
+      "title":  "Vibrant Community",
   
-      "description":  "Join a thriving community of meme lovers united by a common cause.",
+      "description":  "Join our passionate community of pug and space enthusiasts,
+   ready to make StarPug a galactic success.",
   
       "icon":  "Users"
     
@@ -81,7 +89,7 @@ const config = {
   
   "footer":  {
   
-    "copyright":  "NebulaPepe \u00a9 2023"
+    "copyright":  "\u00a9 2023 StarPug. All rights reserved."
   
 }
 
