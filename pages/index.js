@@ -37,14 +37,14 @@ const config = {
   
     "subtitle":  "Combining the charm of pugs with the wonders of space",
   
-    "narrative":  "Welcome to the intergalactic world of StarPug,
+    "narrative":  `Welcome to the intergalactic world of StarPug,
    where adorable pugs and the wonders of the universe collide! \ud83c\udf0c\u2728 StarPug is the ultimate meme coin,
    combining the irresistible charm of pugs with the boundless mysteries of space.\n\nJoin the StarPug community as we embark on cosmic adventures,
    discover new memes,
    and spread joy across the galaxy. With PUG,
    you"re not just holding a token; you"re holding a stellar phenomenon. Prepare for liftoff,
    space explorer,
-   and let"s embark on this epic journey together! \ud83d\ude80\ud83d\udc15"
+   and let"s embark on this epic journey together! \ud83d\ude80\ud83d\udc15`
   
 },
   
