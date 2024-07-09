@@ -79,8 +79,7 @@ const config = {
   
       "title":  "Vibrant Community",
   
-      "description":  "Join our passionate community of pug and space enthusiasts,
-   ready to make StarPug a galactic success.",
+      "description":  "Join our passionate community of pug and space enthusiasts, ready to make StarPug a galactic success.",
   
       "icon":  "Users"
     
