@@ -13,11 +13,11 @@ const config = {
 
     "primary": "darkblue",
 
-    "secondary": "pink",
+    "secondary": "red",
 
-    "text": "neon green",
+    "text": "white",
 
-    "accent": "electric blue"
+    "accent": "white"
 
   },
 
@@ -36,7 +36,9 @@ const config = {
 
     "title": "Welcome to NebulaPepe",
 
-    "subtitle": "Join the cosmic journey of memes and the universe! \ud83d\ude80\ud83d\udc38"
+    "subtitle": "Join the cosmic journey of memes and the universe! \ud83d\ude80\ud83d\udc38",
+
+    "narrative": `sds's`
 
   },
 
@@ -112,7 +114,7 @@ export default function Home() {
 
       <header className="flex justify-between items-center mb-16">
 
-        <h1 className="text-4xl font-bold">{config.projectName}</h1>
+        <h1 className="text-4xl font-bold"><img src="logo.jpg" alt="Logo" style={{ width: '100px', height: '100px' }} /></h1>
         <nav>
           {config.header.navItems.map((item, index) => (
             <Button
@@ -130,18 +132,8 @@ export default function Home() {
         <h2 className="text-7xl sm:text-8xl font-extrabold mb-8 leading-tight animate-float">
           {config.hero.title}
         </h2>
-        <Carousel showThumbs={false} autoPlay infiniteLoop>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <img src="logo.jpg" alt="Logo 1" style={{ width: '40%', height: 'auto' }} />
-          </div>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <img src="logo.jpg" alt="Logo 2" style={{ width: '40%', height: 'auto' }} />
-          </div>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <img src="logo.jpg" alt="Logo 3" style={{ width: '40%', height: 'auto' }} />
-          </div>
-        </Carousel>
         <p className="text-2xl mb-12">{config.hero.subtitle}</p>
+        <p className="text-2xl mb-12">{config.hero.narrative}</p>
         <Button
           className="text-xl px-10 py-6 rounded-full animate-pulse"
           style={{
