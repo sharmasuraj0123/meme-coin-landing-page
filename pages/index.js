@@ -98,7 +98,7 @@ export default function Home() {
   const iconMap = {
     Rocket: Rocket,
     Coins: Coins,
-    Users: Users
+    Users: Users                                                   
   };
 
   return (
